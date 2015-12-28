@@ -1,0 +1,46 @@
+<ion-view  view-title="Sermons" class="sermons">    
+  <ion-content>
+        <div class="list">
+            <a class="item item-icon-right item-thumbnail-left" ng-repeat="playlist in playlists" 
+               href="#/app/sermons/{{playlist.id}}">           
+              <img src="img/logo.png">
+              <i class="icon ion-chevron-right calm"></i> 
+              <h2>{{playlist.snippet.title}}</h2>
+              <p>{{playlist.snippet.description}}</p>
+            </a>
+        </div>                    
+  </ion-content>
+</ion-view>
+
+
+<!--
+
+        <a class="item item-icon-right item-thumbnail-left" href="#">           
+          <img src="img/logo.png">
+          <i class="icon ion-chevron-right calm"></i> 
+          <h2>Sunday Worship Service</h2>
+          <p>Nine Inch Nails</p>
+        </a>
+        
+        
+        <a class="item item-icon-right item-thumbnail-left" href="#">           
+          <img src="img/logo.png">
+          <i class="icon ion-chevron-right calm"></i> 
+          <h2>Revival Service </h2>
+          <p>Nine Inch Nails</p>
+        </a>
+        
+         
+        <a class="item item-icon-right item-thumbnail-left" href="#">           
+          <img src="img/logo.png">
+          <i class="icon ion-chevron-right calm"></i> 
+          <h2>Youth Retreat</h2>
+          <p>Nine Inch Nails</p>
+        </a>
+        
+        <a class="item item-icon-right item-thumbnail-left" href="#">           
+          <img src="img/logo.png">
+          <i class="icon ion-chevron-right calm"></i> 
+          <h2>Salvation Messages</h2>
+          <p>Nine Inch Nails</p>
+        </a>-->

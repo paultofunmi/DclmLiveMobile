@@ -1,0 +1,30 @@
+<ion-view view-title="Find the Nearest Church" class="locationfinder">
+  <ion-content>    
+        <div class="location-marker">          
+              <img src="img/marker_alt.png" width="90" height="90">          
+        </div>
+            
+    
+<!--      <button class="button icon-left ion-ion-android-locate button-block button-calm" ng-click="findlocation()">         
+            Autodetect Location
+        </button>-->
+        
+        <form>
+            <div class="list">            
+                <label class="item item-input">
+                    <textarea placeholder="Your Current Location is:" disabled="true">
+                        Your Current Location is: {{address}} {{zipcode}}
+                    </textarea>
+                </label>
+            </div>
+            
+            
+            <button class="button icon-left ion-ion-android-locate button-block button-assertive" ng-click="findNearestChurch()">         
+                Find Nearest Church
+            </button>
+        </form>
+        
+        
+        
+  </ion-content>
+</ion-view>
